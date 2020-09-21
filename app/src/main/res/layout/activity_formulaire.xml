@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignupActivity"
+    android:background="@drawable/bac_foreground">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect">
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="381dp"
+            android:layout_height="702dp"
+            android:padding="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="Waht is your Age ?"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/age"
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect1"
+                    android:drawablePadding="16dp"
+                    android:hint="Age"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:textColor="#3F3C3C"
+                    android:textColorHint="#757373"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="100dp"
+                    android:text="Your Activity?"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <Spinner
+                    android:id="@+id/spinner_view"
+                    android:layout_width="187dp"
+                    android:layout_height="47dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="17dp"
+                    android:background="@drawable/rect1"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Family situation?"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="187dp"
+                    android:layout_height="47dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginRight="17dp"
+                    android:background="@drawable/rect1"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rect1"
+                android:text="Next"
+                android:layout_marginTop="620dp"
+                android:layout_marginLeft="210dp"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

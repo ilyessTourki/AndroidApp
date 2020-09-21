@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignupActivity"
+    android:background="@drawable/bac_foreground">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect">
+        <TextView
+            android:id="@+id/TYPE"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:text="Money"
+            android:layout_marginLeft="55dp"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            app:fontFamily="@font/fjalla_one"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="25dp"
+            android:text="Challenges"
+            android:layout_marginLeft="165dp"
+            android:textColor="#FFB300"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            app:fontFamily="@font/fjalla_one"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="320dp"
+            android:background="@mipmap/mylogo_foreground"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="130dp"
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="533dp"
+            android:layout_weight="3"
+
+            />
+        <Button
+            android:id="@+id/add"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="530dp"
+            android:background="@mipmap/add_foreground"/>
+
+    </FrameLayout>
+</RelativeLayout>
+</RelativeLayout>

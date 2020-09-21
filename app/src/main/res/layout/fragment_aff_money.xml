@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignupActivity"
+    android:background="@drawable/bac_foreground">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect">
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+    <LinearLayout
+        android:id="@+id/money"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:visibility="visible">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="   you earn :"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/earn2"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rect1"
+            android:drawablePadding="16dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#3F3C3C"
+            android:textColorHint="#757373"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="   your rent is :"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+
+
+
+        <EditText
+            android:id="@+id/rent2"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rect1"
+            android:drawablePadding="16dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#3F3C3C"
+            android:textColorHint="#ffffff" />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text=  "Other habit(cofee,Smoke...):"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+        <EditText
+            android:id="@+id/habit2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect1"
+            android:drawablePadding="16dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#3F3C3C"
+            android:textColorHint="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="You can save "
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            app:fontFamily="@font/fjalla_one" />
+
+        <TextView
+            android:id="@+id/somme"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="-30dp"
+            android:text="300"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            app:fontFamily="@font/fjalla_one" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-35dp"
+            android:layout_marginLeft="215dp"
+            android:text="dt this month"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            app:fontFamily="@font/fjalla_one" />
+
+        <TextView
+            android:id="@+id/updatInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Update information"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/delete1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rect"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Delete information"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

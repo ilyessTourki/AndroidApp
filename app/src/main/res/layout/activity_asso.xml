@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignupActivity"
+    android:background="@drawable/bac_foreground">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/B"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"/>
+            <TextView
+                android:id="@+id/A"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="300dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="Do you participate in social life? "
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:fontFamily="@font/fjalla_one" />
+            <Button
+                android:id="@+id/yes"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="40dp"
+                android:text="Yes"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rect1"/>
+            <Button
+                android:id="@+id/no"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="250dp"
+                android:text="No"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rect1"/>
+            <TextView
+                android:id="@+id/meet"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="When your next meeting?"
+                android:layout_marginTop="250dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:fontFamily="@font/fjalla_one"
+                android:visibility="invisible"/>
+
+
+
+            <CalendarView
+                android:id="@+id/calendarView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="300dp"
+                android:theme="@style/CalenderViewCustom"
+                android:dateTextAppearance="@style/CalenderViewDateCustomText"
+                android:weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rect1"
+                android:text="next"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="210dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"/>
+
+
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

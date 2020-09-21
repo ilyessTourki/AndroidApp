@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Time"
+    android:background="@drawable/bg">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="270dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <fragment
+                android:id="@+id/fragment"
+                android:name="ws.wolfsoft.signup.Fragments.BlankFragment"
+                android:layout_width="395dp"
+                android:layout_height="603dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="99dp"
+                android:background="@drawable/bg"/>
+
+            <Button
+                android:id="@+id/left"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="630dp"
+                android:text="≤"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/right"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="630dp"
+                android:text="≥"
+                android:visibility="invisible"/>
+            <Button
+                android:id="@+id/next"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="630dp"
+                android:text="next"
+                android:visibility="invisible"/>
+
+
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

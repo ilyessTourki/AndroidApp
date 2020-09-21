@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity.Money"
+        android:background="@drawable/bac_foreground">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="270dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+            <LinearLayout
+                android:id="@+id/money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:visibility="visible">
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="How much do you earn /month?"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/earn"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rect1"
+                android:drawablePadding="16dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:textColor="#3F3C3C"
+                android:textColorHint="#757373"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:text="Do you pay rent?"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/yes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Yes"/>
+                <Button
+                    android:id="@+id/no"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="No"/>
+
+
+                <EditText
+                    android:id="@+id/rent"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rect1"
+                    android:drawablePadding="16dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:textColor="#3F3C3C"
+                    android:textColorHint="#ffffff"
+                    android:hint="How much do you pay rent?"
+                    android:visibility="invisible"/>
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:text="Other habit(cofee,Smoke...)?"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/yess"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Yes"/>
+                <Button
+                    android:id="@+id/noo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="No"/>
+
+
+                <EditText
+                    android:id="@+id/habit"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rect1"
+                    android:drawablePadding="16dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:textColor="#3F3C3C"
+                    android:textColorHint="#ffffff"
+                    android:hint="How much do you pay for this Habit"
+                    android:visibility="invisible"/>
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="next"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ws.wolfsoft.signup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.Classement"></activity>
+        <activity android:name=".Activity.Asso" />
+        <activity android:name=".Activity.Sport" />
+        <activity android:name=".Activity.Time" />
+        <activity android:name=".Activity.DetailChallenge" />
+        <activity android:name=".Activity.AddChallange" />
+        <activity android:name=".Activity.ListeChallanges" />
+        <activity android:name=".NewsApi" />
+        <activity android:name=".Activity.Gift" />
+        <activity android:name=".Activity.ConseilTime" />
+        <activity android:name=".Activity.ForTest" />
+        <activity android:name=".Activity.SettingsActivity" />
+        <activity android:name=".Activity.ReponseActivity" />
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.Formulaire" />
+        <activity android:name=".Activity.SigninActivity" />
+        <activity android:name=".Activity.Money" />
+        <activity android:name=".Activity.Subject" />
+        <activity android:name=".Activity.Name" />
+        <activity android:name=".Activity.Health" />
+        <activity
+            android:name=".Activity.Time2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.SignupActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

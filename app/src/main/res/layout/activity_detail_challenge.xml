@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignupActivity"
+    android:background="@drawable/bac_foreground">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Challenges"
+            android:textColor="#FFB300"
+            android:textSize="55dp"
+            android:textStyle="italic"
+            app:fontFamily="@font/fjalla_one" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="290dp"
+            android:background="@mipmap/mylogo_foreground"/>
+
+
+        <RelativeLayout
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="381dp"
+            android:layout_height="450dp"
+            android:background="#40ffffff"
+            android:padding="6dp">
+            <TextView
+                android:id="@+id/titt"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Titre"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/description"
+                android:layout_marginTop="95dp"
+                android:layout_width="fill_parent"
+                android:layout_height="380dp"
+                android:text="TitreTitreTitreTitreTitreTitreTitreTitreTitre
+                              TitreTitreTitreTitreTitreTitreTitreTitreTitreTitre
+                               TitreTitreTitreTitreTitreTitreTitreTitre
+                                TitreTitreTitreTitreTitreTitreTitreTitreTitre"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/date"
+                android:layout_marginTop="395dp"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="250dp"
+                android:text="Day"
+                android:textSize="20dp"
+                android:textColor="#ffad33"/>
+            <TextView
+                android:layout_marginTop="395dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="290dp"
+                android:text="Days left"
+                android:textSize="20dp"
+                android:textColor="#ffcc80"/>
+
+        </RelativeLayout>
+    </FrameLayout>
+    <Button
+        android:id="@+id/partic"
+        android:layout_width="200dp"
+        android:layout_marginLeft="110dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="600dp"
+        android:text="participate"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rect2"
+        />
+    </RelativeLayout>
+</RelativeLayout>

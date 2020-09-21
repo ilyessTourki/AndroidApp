@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignupActivity"
+    android:background="@drawable/bac_foreground">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect">
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            app:fontFamily="@font/fjalla_one"
+            android:text="Money"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            app:fontFamily="@font/fjalla_one"
+            android:text="When are you going to buy it ?"/>
+
+        <CalendarView
+            android:id="@+id/calen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="220dp"
+            android:theme="@style/CalenderViewCustom"
+            android:dateTextAppearance="@style/CalenderViewDateCustomText"
+            android:weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            app:fontFamily="@font/fjalla_one"
+            android:text="How much will it cost ?"/>
+        <EditText
+            android:id="@+id/soum"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="550dp"
+            />
+        <Button
+            android:id="@+id/next"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rect1"
+            android:text="Next"
+            android:layout_marginTop="620dp"
+            android:layout_marginLeft="210dp"/>
+        <Button
+            android:id="@+id/next2"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rect1"
+            android:text="time"
+            android:layout_marginTop="620dp"
+            android:layout_marginLeft="10dp"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

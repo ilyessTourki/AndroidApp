@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profileMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Profile">
+    </item>
+
+    <item
+        android:id="@+id/accountMenu"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/account_circle"
+        android:title="account">
+    </item>
+
+
+    <item
+        android:id="@+id/listchallenge"
+        android:orderInCategory="250"
+        app:showAsAction="never"
+        android:title="my Challenges">
+    </item>
+
+    <item
+        android:id="@+id/topScorres"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_equalizer"
+        android:title="top scorres">
+    </item>
+
+    <item
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="350"
+        app:showAsAction="never"
+        android:title="Logout">
+    </item>
+</menu>
